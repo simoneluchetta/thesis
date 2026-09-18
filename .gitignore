@@ -1,0 +1,72 @@
+# This project is handed over as a folder (a zip). This file is for keeping the code in a
+# private git repository: it leaves out what is machine-specific, what the pipeline makes
+# again by itself, what is too large or may not be redistributed, and every video or image of
+# real people. What stays versioned: the code, the READMEs, the camera calibration, the lock
+# files, the trained NeRF and the viewer's arena layers.
+
+# --- Python environments and caches (uv creates the environments on the first run)
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# --- Node (the viewer)
+node_modules/
+src/viewer/dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# --- Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- The input videos: large, and they show real people
+input_videos/*
+!input_videos/README.md
+*.mp4
+*.mov
+*.mkv
+
+# --- Everything the pipeline writes while it runs
+work/
+*.log
+*.tmp
+*.tmp.*
+
+# --- Results the pipeline writes into the viewer (made again by `uv run pipeline.py`)
+src/viewer/public/bodies/
+src/viewer/public/bodies.json
+src/viewer/public/people_thumbs/
+src/viewer/public/nerf/
+src/viewer/public/*.bak.json
+src/people/crops/
+src/people/3D_People/out/
+
+# --- Model files. SMPL-X may not be redistributed and the OSNet weights are large; the READMEs
+#     say where they come from. The trained NeRF (NeRF/model/nerf.pt) is small and stays.
+src/people/models/
+src/people/3D_People/models/
+*.pth
+*.npz
+*.ckpt
+*.safetensors
+*.zip
+
+# --- Frames, crops and thumbnails show real people and are never published. The zip carries
+#     the viewer's camera thumbnails (public/thumbs/) and the Annotate tab's frames (public/gt_frames/).
+*.jpg
+*.jpeg
+*.png
+
+# --- Point clouds are large. Two sets stay: the NeRF floor (NeRF/model/) and the arena layers
+#     of the viewer's 3D tab (public/plys/, about 100 MB), which nothing regenerates.
+*.ply
+!NeRF/model/*.ply
+!src/viewer/public/plys/*.ply

@@ -1,0 +1,33 @@
+[project]
+name = "arena-da3"
+version = "0.1.0"
+description = "Depth Anything 3 lane of the arena reconstruction: the depth export and the 4D world"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.11.0",
+    "torchvision==0.26.0",
+    "xformers==0.0.35",
+    "depth-anything-3",
+    "numpy<2",
+    "opencv-python>=4.8",
+    "scipy>=1.11",
+    "matplotlib>=3.7",
+    "open3d>=0.17",
+    "addict>=2.4",
+]
+
+[tool.uv]
+# A folder of scripts, not a library: nothing is built or installed as a package.
+package = false
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128" }]
+torchvision = [{ index = "pytorch-cu128" }]
+xformers = [{ index = "pytorch-cu128" }]
+# The exact Depth Anything 3 commit the results were produced with.
+depth-anything-3 = { git = "https://github.com/ByteDance-Seed/Depth-Anything-3", rev = "3d835ec1a5802d64a8b8b15f817a1ab54809bfe4" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

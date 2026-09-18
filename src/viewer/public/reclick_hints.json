@@ -1,0 +1,486 @@
+{
+  "cam07": {
+    "hoop_E/board_TR": {
+      "expected_xy": [
+        -416.3,
+        682.6
+      ],
+      "current_xy": [
+        62.0,
+        783.0
+      ],
+      "err_px": 488.7,
+      "kind": "delete",
+      "note": "point not in this camera's view"
+    },
+    "hoop_E/board_TL": {
+      "expected_xy": [
+        56.3,
+        643.1
+      ],
+      "current_xy": [
+        208.0,
+        697.0
+      ],
+      "err_px": 161.0,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_E/board_BR": {
+      "expected_xy": [
+        -300.7,
+        869.4
+      ],
+      "current_xy": [
+        94.0,
+        925.0
+      ],
+      "err_px": 398.6,
+      "kind": "delete",
+      "note": "point not in this camera's view"
+    },
+    "hoop_E/board_BL": {
+      "expected_xy": [
+        140.9,
+        790.6
+      ],
+      "current_xy": [
+        240.0,
+        821.0
+      ],
+      "err_px": 103.7,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_E/rim_front": {
+      "expected_xy": [
+        75.8,
+        810.2
+      ],
+      "current_xy": [
+        210.0,
+        845.0
+      ],
+      "err_px": 138.6,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_E/rim_back": {
+      "expected_xy": [
+        -15.0,
+        807.1
+      ],
+      "current_xy": [
+        168.0,
+        849.0
+      ],
+      "err_px": 187.8,
+      "kind": "delete",
+      "note": "point not in this camera's view"
+    },
+    "hoop_E/extra1": {
+      "expected_xy": [
+        -498.2,
+        771.0
+      ],
+      "current_xy": [
+        48.0,
+        856.5
+      ],
+      "err_px": 552.9,
+      "kind": "delete",
+      "note": "point not in this camera's view"
+    },
+    "hoop_W/board_TR": {
+      "expected_xy": [
+        4058.1,
+        754.2
+      ],
+      "current_xy": [
+        3738.0,
+        809.0
+      ],
+      "err_px": 324.8,
+      "kind": "delete",
+      "note": "point not in this camera's view"
+    },
+    "hoop_W/board_TL": {
+      "expected_xy": [
+        3692.2,
+        696.0
+      ],
+      "current_xy": [
+        3598.0,
+        725.0
+      ],
+      "err_px": 98.6,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/board_BR": {
+      "expected_xy": [
+        3917.6,
+        919.5
+      ],
+      "current_xy": [
+        3706.0,
+        949.0
+      ],
+      "err_px": 213.7,
+      "kind": "delete",
+      "note": "point not in this camera's view"
+    },
+    "hoop_W/rim_front": {
+      "expected_xy": [
+        3640.7,
+        856.4
+      ],
+      "current_xy": [
+        3592.0,
+        873.0
+      ],
+      "err_px": 51.5,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/rim_back": {
+      "expected_xy": [
+        3723.1,
+        845.7
+      ],
+      "current_xy": [
+        3632.0,
+        873.0
+      ],
+      "err_px": 95.1,
+      "kind": "reclick",
+      "note": ""
+    }
+  },
+  "cam01": {
+    "hoop_E/board_BL": {
+      "expected_xy": [
+        1529.6,
+        1495.0
+      ],
+      "current_xy": [
+        1478.0,
+        1507.0
+      ],
+      "err_px": 52.9,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_E/extra1": {
+      "expected_xy": [
+        1816.3,
+        1626.8
+      ],
+      "current_xy": [
+        1788.0,
+        1669.5
+      ],
+      "err_px": 51.2,
+      "kind": "reclick",
+      "note": ""
+    }
+  },
+  "cam02": {
+    "hoop_E/extra1": {
+      "expected_xy": [
+        898.4,
+        603.5
+      ],
+      "current_xy": [
+        900.0,
+        550.5
+      ],
+      "err_px": 53.0,
+      "kind": "reclick",
+      "note": ""
+    }
+  },
+  "cam03": {
+    "hoop_W/board_TR": {
+      "expected_xy": [
+        1868.5,
+        345.8
+      ],
+      "current_xy": [
+        2312.0,
+        419.0
+      ],
+      "err_px": 449.5,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/board_TL": {
+      "expected_xy": [
+        2228.3,
+        500.1
+      ],
+      "current_xy": [
+        1912.0,
+        271.0
+      ],
+      "err_px": 390.6,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/board_BL": {
+      "expected_xy": [
+        2259.5,
+        865.7
+      ],
+      "current_xy": [
+        2260.0,
+        801.0
+      ],
+      "err_px": 64.7,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/rim_front": {
+      "expected_xy": [
+        2198.3,
+        717.9
+      ],
+      "current_xy": [
+        2222.0,
+        631.0
+      ],
+      "err_px": 90.1,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/rim_back": {
+      "expected_xy": [
+        2056.3,
+        698.9
+      ],
+      "current_xy": [
+        2096.0,
+        639.0
+      ],
+      "err_px": 71.8,
+      "kind": "reclick",
+      "note": ""
+    },
+    "bench/fL": {
+      "expected_xy": [
+        2341.1,
+        386.4
+      ],
+      "current_xy": [
+        2248.0,
+        361.0
+      ],
+      "err_px": 96.5,
+      "kind": "reclick",
+      "note": ""
+    },
+    "bench/fR": {
+      "expected_xy": [
+        2424.9,
+        384.4
+      ],
+      "current_xy": [
+        2334.0,
+        357.0
+      ],
+      "err_px": 94.9,
+      "kind": "reclick",
+      "note": ""
+    },
+    "bench/bR": {
+      "expected_xy": [
+        2453.4,
+        486.8
+      ],
+      "current_xy": [
+        2386.0,
+        473.0
+      ],
+      "err_px": 68.8,
+      "kind": "reclick",
+      "note": ""
+    },
+    "bench/extra1": {
+      "expected_xy": [
+        2448.2,
+        187.0
+      ],
+      "current_xy": [
+        2358.0,
+        142.5
+      ],
+      "err_px": 100.6,
+      "kind": "reclick",
+      "note": ""
+    },
+    "bench/extra2": {
+      "expected_xy": [
+        2469.0,
+        255.1
+      ],
+      "current_xy": [
+        2382.0,
+        214.5
+      ],
+      "err_px": 96.0,
+      "kind": "reclick",
+      "note": ""
+    }
+  },
+  "cam05": {
+    "hoop_W/board_TR": {
+      "expected_xy": [
+        978.5,
+        935.4
+      ],
+      "current_xy": [
+        1370.0,
+        747.0
+      ],
+      "err_px": 434.5,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/board_TL": {
+      "expected_xy": [
+        1980.8,
+        931.8
+      ],
+      "current_xy": [
+        2050.0,
+        751.0
+      ],
+      "err_px": 193.6,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/board_BR": {
+      "expected_xy": [
+        1017.4,
+        1439.7
+      ],
+      "current_xy": [
+        1366.0,
+        1137.0
+      ],
+      "err_px": 461.7,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/board_BL": {
+      "expected_xy": [
+        1979.7,
+        1367.5
+      ],
+      "current_xy": [
+        2056.0,
+        1139.0
+      ],
+      "err_px": 240.9,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/rim_front": {
+      "expected_xy": [
+        1546.9,
+        1214.8
+      ],
+      "current_xy": [
+        1706.0,
+        993.0
+      ],
+      "err_px": 272.9,
+      "kind": "reclick",
+      "note": ""
+    },
+    "hoop_W/rim_back": {
+      "expected_xy": [
+        1516.2,
+        1299.8
+      ],
+      "current_xy": [
+        1710.0,
+        1053.0
+      ],
+      "err_px": 313.8,
+      "kind": "reclick",
+      "note": ""
+    }
+  },
+  "cam06": {
+    "hoop_W/board_BL": {
+      "expected_xy": [
+        1010.5,
+        645.4
+      ],
+      "current_xy": [
+        940.0,
+        635.0
+      ],
+      "err_px": 71.3,
+      "kind": "reclick",
+      "note": ""
+    }
+  },
+  "cam13": {
+    "vbnet/p1": {
+      "expected_xy": [
+        3174.5,
+        1977.6
+      ],
+      "current_xy": [
+        3170.0,
+        1913.0
+      ],
+      "err_px": 64.7,
+      "kind": "reclick",
+      "note": ""
+    }
+  },
+  "cam12": {
+    "vbnet/p2": {
+      "expected_xy": [
+        329.0,
+        831.8
+      ],
+      "current_xy": [
+        272.0,
+        843.0
+      ],
+      "err_px": 58.1,
+      "kind": "reclick",
+      "note": ""
+    },
+    "vbnet/p3": {
+      "expected_xy": [
+        341.6,
+        806.1
+      ],
+      "current_xy": [
+        282.0,
+        819.0
+      ],
+      "err_px": 61.0,
+      "kind": "reclick",
+      "note": ""
+    },
+    "vbnet/p4": {
+      "expected_xy": [
+        372.7,
+        681.8
+      ],
+      "current_xy": [
+        302.0,
+        749.0
+      ],
+      "err_px": 97.6,
+      "kind": "reclick",
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": "1",
+  "world_convention": {
+    "X": "long axis of court (28m for basketball, 18m for volleyball)",
+    "Y": "short axis of court (15m basketball, 9m volleyball)",
+    "Z": "height above floor (court floor at Z=0)",
+    "origin": "court center"
+  },
+  "courts": {
+    "basketball_fiba": {
+      "long_half_m": 14.0,
+      "short_half_m": 7.5,
+      "key_depth_m": 5.8,
+      "key_half_width_m": 2.45,
+      "free_throw_circle_radius_m": 1.8,
+      "center_circle_radius_m": 1.8,
+      "hoop_inset_m": 1.575,
+      "hoop_height_m": 3.05
+    },
+    "volleyball_fivb": {
+      "long_half_m": 9.0,
+      "short_half_m": 4.5,
+      "attack_line_x_m": 3.0,
+      "net_height_m": 2.43,
+      "post_outset_m": 0.5,
+      "post_height_m": 2.55
+    }
+  },
+  "keypoints": [
+    { "id": "bb_corner_NE", "court": "basketball", "world": [ 14.0,  7.5, 0.0], "label": "Basketball court NE corner (+X, +Y)" },
+    { "id": "bb_corner_NW", "court": "basketball", "world": [-14.0,  7.5, 0.0], "label": "Basketball court NW corner (-X, +Y)" },
+    { "id": "bb_corner_SE", "court": "basketball", "world": [ 14.0, -7.5, 0.0], "label": "Basketball court SE corner (+X, -Y)" },
+    { "id": "bb_corner_SW", "court": "basketball", "world": [-14.0, -7.5, 0.0], "label": "Basketball court SW corner (-X, -Y)" },
+
+    { "id": "bb_baseline_E_center",   "court": "basketball", "world": [ 14.0,  0.0, 0.0], "label": "East baseline center (under hoop)" },
+    { "id": "bb_baseline_W_center",   "court": "basketball", "world": [-14.0,  0.0, 0.0], "label": "West baseline center (under hoop)" },
+    { "id": "bb_baseline_E_key_N",    "court": "basketball", "world": [ 14.0,  2.45, 0.0], "label": "East baseline at key NE" },
+    { "id": "bb_baseline_E_key_S",    "court": "basketball", "world": [ 14.0, -2.45, 0.0], "label": "East baseline at key SE" },
+    { "id": "bb_baseline_W_key_N",    "court": "basketball", "world": [-14.0,  2.45, 0.0], "label": "West baseline at key NW" },
+    { "id": "bb_baseline_W_key_S",    "court": "basketball", "world": [-14.0, -2.45, 0.0], "label": "West baseline at key SW" },
+
+    { "id": "bb_center_line_N", "court": "basketball", "world": [ 0.0,  7.5, 0.0], "label": "Center line at N sideline" },
+    { "id": "bb_center_line_S", "court": "basketball", "world": [ 0.0, -7.5, 0.0], "label": "Center line at S sideline" },
+
+    { "id": "bb_center_circle_C", "court": "basketball", "world": [ 0.0,  0.0, 0.0], "label": "Center circle center (court midpoint)" },
+    { "id": "bb_center_circle_N", "court": "basketball", "world": [ 0.0,  1.8, 0.0], "label": "Center circle +Y tangent" },
+    { "id": "bb_center_circle_S", "court": "basketball", "world": [ 0.0, -1.8, 0.0], "label": "Center circle -Y tangent" },
+    { "id": "bb_center_circle_E", "court": "basketball", "world": [ 1.8,  0.0, 0.0], "label": "Center circle +X tangent" },
+    { "id": "bb_center_circle_W", "court": "basketball", "world": [-1.8,  0.0, 0.0], "label": "Center circle -X tangent" },
+
+    { "id": "bb_FT_E_line_N", "court": "basketball", "world": [ 8.2,  2.45, 0.0], "label": "East free-throw line N corner (top of east key)" },
+    { "id": "bb_FT_E_line_S", "court": "basketball", "world": [ 8.2, -2.45, 0.0], "label": "East free-throw line S corner" },
+    { "id": "bb_FT_E_line_C", "court": "basketball", "world": [ 8.2,  0.0, 0.0], "label": "East free-throw line center" },
+    { "id": "bb_FT_E_arc_apex","court": "basketball", "world": [ 6.4,  0.0, 0.0], "label": "East FT arc apex (toward court center)" },
+    { "id": "bb_FT_W_line_N", "court": "basketball", "world": [-8.2,  2.45, 0.0], "label": "West free-throw line N corner" },
+    { "id": "bb_FT_W_line_S", "court": "basketball", "world": [-8.2, -2.45, 0.0], "label": "West free-throw line S corner" },
+    { "id": "bb_FT_W_line_C", "court": "basketball", "world": [-8.2,  0.0, 0.0], "label": "West free-throw line center" },
+    { "id": "bb_FT_W_arc_apex","court": "basketball", "world": [-6.4,  0.0, 0.0], "label": "West FT arc apex" },
+
+    { "id": "bb_hoop_E", "court": "basketball", "world": [ 12.425, 0.0, 3.05], "label": "East hoop center (rim)" },
+    { "id": "bb_hoop_W", "court": "basketball", "world": [-12.425, 0.0, 3.05], "label": "West hoop center (rim)" },
+
+    { "id": "vb_corner_NE", "court": "volleyball", "world": [ 9.0,  4.5, 0.0], "label": "Volleyball court NE corner" },
+    { "id": "vb_corner_NW", "court": "volleyball", "world": [-9.0,  4.5, 0.0], "label": "Volleyball court NW corner" },
+    { "id": "vb_corner_SE", "court": "volleyball", "world": [ 9.0, -4.5, 0.0], "label": "Volleyball court SE corner" },
+    { "id": "vb_corner_SW", "court": "volleyball", "world": [-9.0, -4.5, 0.0], "label": "Volleyball court SW corner" },
+
+    { "id": "vb_net_floor_N", "court": "volleyball", "world": [0.0,  4.5, 0.0], "label": "Net line at N sideline (floor)" },
+    { "id": "vb_net_floor_S", "court": "volleyball", "world": [0.0, -4.5, 0.0], "label": "Net line at S sideline (floor)" },
+
+    { "id": "vb_attack_E_N", "court": "volleyball", "world": [ 3.0,  4.5, 0.0], "label": "East attack line N end" },
+    { "id": "vb_attack_E_S", "court": "volleyball", "world": [ 3.0, -4.5, 0.0], "label": "East attack line S end" },
+    { "id": "vb_attack_W_N", "court": "volleyball", "world": [-3.0,  4.5, 0.0], "label": "West attack line N end" },
+    { "id": "vb_attack_W_S", "court": "volleyball", "world": [-3.0, -4.5, 0.0], "label": "West attack line S end" },
+
+    { "id": "vb_net_top_C", "court": "volleyball", "world": [0.0,  0.0, 2.43], "label": "Net top center" },
+    { "id": "vb_net_top_N", "court": "volleyball", "world": [0.0,  4.5, 2.43], "label": "Net top N (at post)" },
+    { "id": "vb_net_top_S", "court": "volleyball", "world": [0.0, -4.5, 2.43], "label": "Net top S (at post)" },
+    { "id": "vb_post_top_N","court": "volleyball", "world": [0.0,  5.0, 2.55], "label": "North net-post top (just outside court)" },
+    { "id": "vb_post_top_S","court": "volleyball", "world": [0.0, -5.0, 2.55], "label": "South net-post top" }
+  ]
+}

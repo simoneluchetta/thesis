@@ -1,0 +1,1643 @@
+{
+  "tie_points": [
+    {
+      "id": "hoop_E/board_TR",
+      "label": "Backboard TOP \u00c2\u00b7 +Y (North) side",
+      "group": "hoop_E",
+      "world": [
+        12.8668,
+        0.9012,
+        3.9695
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            2098,
+            1157
+          ],
+          "residual_px": 10.3,
+          "used": true
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            1710,
+            175
+          ],
+          "residual_px": 5.7,
+          "used": true
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            62.00000000000001,
+            783
+          ],
+          "residual_px": 513.0,
+          "used": false
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            2724,
+            393
+          ],
+          "residual_px": 15.6,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            3064,
+            819
+          ],
+          "residual_px": 12.0,
+          "used": true
+        }
+      ],
+      "point_rms_px": 11.48,
+      "n_used": 4
+    },
+    {
+      "id": "hoop_E/board_TL",
+      "label": "Backboard TOP \u00c2\u00b7 \u00e2\u02c6\u2019Y (South) side",
+      "group": "hoop_E",
+      "world": [
+        12.8556,
+        -0.8779,
+        3.9693
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            1492,
+            1149
+          ],
+          "residual_px": 12.4,
+          "used": true
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            1228,
+            85
+          ],
+          "residual_px": 1.1,
+          "used": true
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            208.00000000000003,
+            697
+          ],
+          "residual_px": 156.6,
+          "used": false
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            2676,
+            446.99999999999994
+          ],
+          "residual_px": 17.8,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            2038,
+            847
+          ],
+          "residual_px": 19.1,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            3151.9999999999995,
+            851
+          ],
+          "residual_px": 11.2,
+          "used": true
+        }
+      ],
+      "point_rms_px": 13.89,
+      "n_used": 5
+    },
+    {
+      "id": "hoop_E/board_BR",
+      "label": "Backboard BOTTOM \u00c2\u00b7 +Y (North) side",
+      "group": "hoop_E",
+      "world": [
+        12.8868,
+        0.952,
+        2.8963
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            2104,
+            1515
+          ],
+          "residual_px": 4.1,
+          "used": true
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            1718,
+            621
+          ],
+          "residual_px": 4.5,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            1568,
+            47
+          ],
+          "residual_px": 40.2,
+          "used": false
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            94,
+            925.0000000000001
+          ],
+          "residual_px": 331.9,
+          "used": false
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            2734,
+            609
+          ],
+          "residual_px": 3.8,
+          "used": true
+        }
+      ],
+      "point_rms_px": 4.13,
+      "n_used": 3
+    },
+    {
+      "id": "hoop_E/board_BL",
+      "label": "Backboard BOTTOM \u00c2\u00b7 \u00e2\u02c6\u2019Y (South) side",
+      "group": "hoop_E",
+      "world": [
+        12.8647,
+        -0.9297,
+        2.8777
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            1478,
+            1507
+          ],
+          "residual_px": 6.9,
+          "used": true
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            1272,
+            453
+          ],
+          "residual_px": 69.1,
+          "used": false
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            1760,
+            45
+          ],
+          "residual_px": 37.1,
+          "used": false
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            240,
+            821
+          ],
+          "residual_px": 85.9,
+          "used": false
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            2682,
+            699
+          ],
+          "residual_px": 9.0,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            1996,
+            1000.9999999999999
+          ],
+          "residual_px": 16.9,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            3138,
+            953
+          ],
+          "residual_px": 10.8,
+          "used": true
+        }
+      ],
+      "point_rms_px": 11.51,
+      "n_used": 4
+    },
+    {
+      "id": "hoop_E/rim_front",
+      "label": "Rim tip (toward court centre, \u00e2\u02c6\u2019X)",
+      "group": "hoop_E",
+      "world": [
+        12.2346,
+        0.0154,
+        3.0707
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            1795.9999999999998,
+            1395
+          ],
+          "residual_px": 2.9,
+          "used": true
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            1638,
+            439
+          ],
+          "residual_px": 5.5,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            1665.9999999999998,
+            38.99999999999999
+          ],
+          "residual_px": 32.5,
+          "used": false
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            210,
+            845
+          ],
+          "residual_px": 121.2,
+          "used": false
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            2564,
+            612.9999999999999
+          ],
+          "residual_px": 11.9,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            2042,
+            941
+          ],
+          "residual_px": 11.5,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            3050,
+            915
+          ],
+          "residual_px": 9.0,
+          "used": true
+        }
+      ],
+      "point_rms_px": 8.87,
+      "n_used": 5
+    },
+    {
+      "id": "hoop_E/rim_back",
+      "label": "Rim base (at the backboard, +X)",
+      "group": "hoop_E",
+      "world": [
+        12.7081,
+        0.0046,
+        3.0668
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            1790,
+            1435
+          ],
+          "residual_px": 5.0,
+          "used": true
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            1500,
+            471
+          ],
+          "residual_px": 4.6,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            1664.0000000000002,
+            31.000000000000004
+          ],
+          "residual_px": 37.9,
+          "used": false
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            168,
+            849
+          ],
+          "residual_px": 157.5,
+          "used": false
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            2664,
+            617
+          ],
+          "residual_px": 14.8,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            2092,
+            969
+          ],
+          "residual_px": 19.7,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            3090,
+            917
+          ],
+          "residual_px": 6.4,
+          "used": true
+        }
+      ],
+      "point_rms_px": 11.78,
+      "n_used": 5
+    },
+    {
+      "id": "hoop_W/board_TR",
+      "label": "Backboard TOP \u00c2\u00b7 +Y (North) side",
+      "group": "hoop_W",
+      "world": [
+        -12.8824,
+        0.7675,
+        3.9845
+      ],
+      "observations": [
+        {
+          "cam": "cam03",
+          "image_xy": [
+            2312,
+            419
+          ],
+          "residual_px": 452.5,
+          "used": false
+        },
+        {
+          "cam": "cam04",
+          "image_xy": [
+            1900,
+            245
+          ],
+          "residual_px": 1.6,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            1370,
+            747
+          ],
+          "residual_px": 416.3,
+          "used": false
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            932.0000000000001,
+            319
+          ],
+          "residual_px": 1.4,
+          "used": true
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            3738,
+            809
+          ],
+          "residual_px": 335.5,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            644,
+            779
+          ],
+          "residual_px": 9.6,
+          "used": true
+        }
+      ],
+      "point_rms_px": 5.69,
+      "n_used": 3
+    },
+    {
+      "id": "hoop_W/board_TL",
+      "label": "Backboard TOP \u00c2\u00b7 \u00e2\u02c6\u2019Y (South) side",
+      "group": "hoop_W",
+      "world": [
+        -12.934,
+        -0.9844,
+        3.9768
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            1704,
+            567
+          ],
+          "residual_px": 2.1,
+          "used": true
+        },
+        {
+          "cam": "cam03",
+          "image_xy": [
+            1912,
+            271
+          ],
+          "residual_px": 381.0,
+          "used": false
+        },
+        {
+          "cam": "cam04",
+          "image_xy": [
+            2386,
+            237
+          ],
+          "residual_px": 3.8,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            2050,
+            751
+          ],
+          "residual_px": 172.4,
+          "used": false
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            960,
+            381
+          ],
+          "residual_px": 2.6,
+          "used": true
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            3598.0000000000005,
+            725
+          ],
+          "residual_px": 105.5,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            554,
+            811
+          ],
+          "residual_px": 11.2,
+          "used": true
+        }
+      ],
+      "point_rms_px": 6.16,
+      "n_used": 4
+    },
+    {
+      "id": "hoop_W/board_BR",
+      "label": "Backboard BOTTOM \u00c2\u00b7 +Y (North) side",
+      "group": "hoop_W",
+      "world": [
+        -12.9256,
+        0.8404,
+        2.9371
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            1898,
+            681
+          ],
+          "residual_px": 2.8,
+          "used": true
+        },
+        {
+          "cam": "cam04",
+          "image_xy": [
+            1844.0000000000002,
+            675
+          ],
+          "residual_px": 2.8,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            1366,
+            1137
+          ],
+          "residual_px": 463.4,
+          "used": false
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            902.0000000000001,
+            541
+          ],
+          "residual_px": 4.3,
+          "used": true
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            3706,
+            949
+          ],
+          "residual_px": 224.1,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            652,
+            868.9999999999999
+          ],
+          "residual_px": 6.9,
+          "used": true
+        }
+      ],
+      "point_rms_px": 4.52,
+      "n_used": 4
+    },
+    {
+      "id": "hoop_W/board_BL",
+      "label": "Backboard BOTTOM \u00c2\u00b7 \u00e2\u02c6\u2019Y (South) side",
+      "group": "hoop_W",
+      "world": [
+        -12.9127,
+        -0.8745,
+        2.8912
+      ],
+      "observations": [
+        {
+          "cam": "cam05",
+          "image_xy": [
+            2056,
+            1139
+          ],
+          "residual_px": 332.9,
+          "used": false
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            940,
+            634.9999999999999
+          ],
+          "residual_px": 0.1,
+          "used": true
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            3564,
+            849
+          ],
+          "residual_px": 68.8,
+          "used": false
+        },
+        {
+          "cam": "cam03",
+          "image_xy": [
+            2260,
+            801
+          ],
+          "residual_px": 123.4,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            562,
+            911
+          ],
+          "residual_px": 0.2,
+          "used": true
+        }
+      ],
+      "point_rms_px": 0.17,
+      "n_used": 2
+    },
+    {
+      "id": "hoop_W/rim_front",
+      "label": "Rim tip (toward court centre, +X)",
+      "group": "hoop_W",
+      "world": [
+        -12.2898,
+        -0.0945,
+        3.0785
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            1802.0000000000002,
+            673
+          ],
+          "residual_px": 3.9,
+          "used": true
+        },
+        {
+          "cam": "cam03",
+          "image_xy": [
+            2222,
+            631
+          ],
+          "residual_px": 85.4,
+          "used": false
+        },
+        {
+          "cam": "cam04",
+          "image_xy": [
+            1940.0000000000002,
+            534.9999999999999
+          ],
+          "residual_px": 2.7,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            1705.9999999999998,
+            993
+          ],
+          "residual_px": 280.3,
+          "used": false
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            1068,
+            563
+          ],
+          "residual_px": 0.5,
+          "used": true
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            3591.9999999999995,
+            873
+          ],
+          "residual_px": 78.9,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            650,
+            879
+          ],
+          "residual_px": 7.3,
+          "used": true
+        }
+      ],
+      "point_rms_px": 4.37,
+      "n_used": 4
+    },
+    {
+      "id": "hoop_W/rim_back",
+      "label": "Rim base (at the backboard, \u00e2\u02c6\u2019X)",
+      "group": "hoop_W",
+      "world": [
+        -12.765,
+        -0.1203,
+        3.0954
+      ],
+      "observations": [
+        {
+          "cam": "cam01",
+          "image_xy": [
+            1800,
+            665
+          ],
+          "residual_px": 4.3,
+          "used": true
+        },
+        {
+          "cam": "cam03",
+          "image_xy": [
+            2096,
+            639
+          ],
+          "residual_px": 84.0,
+          "used": false
+        },
+        {
+          "cam": "cam04",
+          "image_xy": [
+            2076,
+            569
+          ],
+          "residual_px": 2.0,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            1710,
+            1053
+          ],
+          "residual_px": 323.4,
+          "used": false
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            962.0000000000001,
+            553
+          ],
+          "residual_px": 1.2,
+          "used": true
+        },
+        {
+          "cam": "cam07",
+          "image_xy": [
+            3631.9999999999995,
+            873
+          ],
+          "residual_px": 102.3,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            612,
+            879
+          ],
+          "residual_px": 6.0,
+          "used": true
+        }
+      ],
+      "point_rms_px": 3.88,
+      "n_used": 4
+    },
+    {
+      "id": "vbnet/p1",
+      "label": "Corner / junction 1",
+      "group": "vbnet",
+      "world": [
+        5.2546,
+        -13.0029,
+        1.5957
+      ],
+      "observations": [
+        {
+          "cam": "cam07",
+          "image_xy": [
+            1452,
+            513
+          ],
+          "residual_px": 4.8,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            216,
+            917
+          ],
+          "residual_px": 54.9,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            3170,
+            1913.0000000000002
+          ],
+          "residual_px": 42.9,
+          "used": false
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            846,
+            85
+          ],
+          "residual_px": 1.8,
+          "used": true
+        },
+        {
+          "cam": "cam04",
+          "image_xy": [
+            1434,
+            67
+          ],
+          "residual_px": 14.4,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            3258,
+            371
+          ],
+          "residual_px": 11.9,
+          "used": true
+        },
+        {
+          "cam": "cam10L",
+          "image_xy": [
+            717.8666666666667,
+            1241.6000000000001
+          ],
+          "residual_px": 7.5,
+          "used": true
+        },
+        {
+          "cam": "cam11L",
+          "image_xy": [
+            579.2,
+            702.9333333333333
+          ],
+          "residual_px": 454.3,
+          "used": false
+        }
+      ],
+      "point_rms_px": 9.28,
+      "n_used": 5
+    },
+    {
+      "id": "vbnet/p2",
+      "label": "Corner / junction 2",
+      "group": "vbnet",
+      "world": [
+        1.4833,
+        -12.8817,
+        1.148
+      ],
+      "observations": [
+        {
+          "cam": "cam07",
+          "image_xy": [
+            1780,
+            545
+          ],
+          "residual_px": 6.1,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            272,
+            843
+          ],
+          "residual_px": 58.5,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            2228,
+            2125
+          ],
+          "residual_px": 9.1,
+          "used": true
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            1402,
+            85
+          ],
+          "residual_px": 1.1,
+          "used": true
+        },
+        {
+          "cam": "cam04",
+          "image_xy": [
+            1815.9999999999998,
+            235
+          ],
+          "residual_px": 6.0,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            3454.0000000000005,
+            549
+          ],
+          "residual_px": 14.0,
+          "used": true
+        },
+        {
+          "cam": "cam10L",
+          "image_xy": [
+            769.0666666666667,
+            930.1333333333333
+          ],
+          "residual_px": 3.0,
+          "used": true
+        },
+        {
+          "cam": "cam11L",
+          "image_xy": [
+            616.5333333333333,
+            403.2
+          ],
+          "residual_px": 405.7,
+          "used": false
+        },
+        {
+          "cam": "cam09R",
+          "image_xy": [
+            1413.3333333333333,
+            113.06666666666666
+          ],
+          "residual_px": 318.3,
+          "used": false
+        }
+      ],
+      "point_rms_px": 7.75,
+      "n_used": 6
+    },
+    {
+      "id": "vbnet/p3",
+      "label": "Corner / junction 3",
+      "group": "vbnet",
+      "world": [
+        0.4985,
+        -12.8394,
+        1.1353
+      ],
+      "observations": [
+        {
+          "cam": "cam07",
+          "image_xy": [
+            1868,
+            545
+          ],
+          "residual_px": 6.9,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            282,
+            819
+          ],
+          "residual_px": 61.4,
+          "used": false
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            1948,
+            2129
+          ],
+          "residual_px": 4.7,
+          "used": true
+        },
+        {
+          "cam": "cam02",
+          "image_xy": [
+            1528,
+            67
+          ],
+          "residual_px": 8.1,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            3514.0000000000005,
+            583
+          ],
+          "residual_px": 8.9,
+          "used": true
+        },
+        {
+          "cam": "cam10L",
+          "image_xy": [
+            774.4,
+            845.8666666666667
+          ],
+          "residual_px": 2.8,
+          "used": true
+        },
+        {
+          "cam": "cam11L",
+          "image_xy": [
+            617.6,
+            333.8666666666667
+          ],
+          "residual_px": 373.9,
+          "used": false
+        },
+        {
+          "cam": "cam09R",
+          "image_xy": [
+            1413.3333333333333,
+            173.86666666666667
+          ],
+          "residual_px": 306.8,
+          "used": false
+        }
+      ],
+      "point_rms_px": 6.68,
+      "n_used": 5
+    },
+    {
+      "id": "vbnet/p4",
+      "label": "Corner / junction 4",
+      "group": "vbnet",
+      "world": [
+        -3.1244,
+        -12.7953,
+        1.6211
+      ],
+      "observations": [
+        {
+          "cam": "cam07",
+          "image_xy": [
+            2198,
+            508.99999999999994
+          ],
+          "residual_px": 16.1,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            882,
+            1953
+          ],
+          "residual_px": 83.8,
+          "used": false
+        },
+        {
+          "cam": "cam01",
+          "image_xy": [
+            56,
+            995.0000000000001
+          ],
+          "residual_px": 8.0,
+          "used": true
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            3804,
+            675
+          ],
+          "residual_px": 7.2,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            302,
+            749
+          ],
+          "residual_px": 95.5,
+          "used": false
+        },
+        {
+          "cam": "cam10L",
+          "image_xy": [
+            761.6,
+            517.3333333333333
+          ],
+          "residual_px": 7.0,
+          "used": true
+        },
+        {
+          "cam": "cam11L",
+          "image_xy": [
+            576,
+            93.86666666666667
+          ],
+          "residual_px": 815.2,
+          "used": false
+        },
+        {
+          "cam": "cam09R",
+          "image_xy": [
+            1467.7333333333333,
+            434.13333333333327
+          ],
+          "residual_px": 282.6,
+          "used": false
+        }
+      ],
+      "point_rms_px": 10.29,
+      "n_used": 4
+    },
+    {
+      "id": "bench/fL",
+      "label": "Front-left corner / leg",
+      "group": "bench",
+      "world": [
+        -0.9166,
+        11.7431,
+        0.7001
+      ],
+      "observations": [
+        {
+          "cam": "cam09L",
+          "image_xy": [
+            715.7333333333333,
+            404.26666666666665
+          ],
+          "residual_px": 18.4,
+          "used": true
+        },
+        {
+          "cam": "cam01",
+          "image_xy": [
+            3535.9999999999995,
+            1221
+          ],
+          "residual_px": 4.1,
+          "used": true
+        },
+        {
+          "cam": "cam03",
+          "image_xy": [
+            2248,
+            361
+          ],
+          "residual_px": 95.9,
+          "used": false
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            2268,
+            661
+          ],
+          "residual_px": 9.5,
+          "used": true
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            1202,
+            623
+          ],
+          "residual_px": 5.9,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            2018,
+            773
+          ],
+          "residual_px": 1.5,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            1790,
+            861.0000000000001
+          ],
+          "residual_px": 6.1,
+          "used": true
+        },
+        {
+          "cam": "cam10R",
+          "image_xy": [
+            1213.8666666666666,
+            936.5333333333333
+          ],
+          "residual_px": 6.3,
+          "used": true
+        },
+        {
+          "cam": "cam11R",
+          "image_xy": [
+            1360,
+            109.86666666666665
+          ],
+          "residual_px": 7.2,
+          "used": true
+        }
+      ],
+      "point_rms_px": 8.74,
+      "n_used": 8
+    },
+    {
+      "id": "bench/fR",
+      "label": "Front-right corner / leg",
+      "group": "bench",
+      "world": [
+        -0.1539,
+        11.7551,
+        0.6913
+      ],
+      "observations": [
+        {
+          "cam": "cam09L",
+          "image_xy": [
+            715.7333333333333,
+            349.8666666666667
+          ],
+          "residual_px": 20.9,
+          "used": true
+        },
+        {
+          "cam": "cam01",
+          "image_xy": [
+            3582,
+            1245
+          ],
+          "residual_px": 4.0,
+          "used": true
+        },
+        {
+          "cam": "cam03",
+          "image_xy": [
+            2334,
+            357
+          ],
+          "residual_px": 89.0,
+          "used": false
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            2354,
+            665
+          ],
+          "residual_px": 13.4,
+          "used": true
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            1284,
+            623
+          ],
+          "residual_px": 5.4,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            2048,
+            789
+          ],
+          "residual_px": 1.0,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            1845.9999999999998,
+            864.9999999999999
+          ],
+          "residual_px": 1.4,
+          "used": true
+        },
+        {
+          "cam": "cam10R",
+          "image_xy": [
+            1218.1333333333334,
+            1005.8666666666666
+          ],
+          "residual_px": 4.7,
+          "used": true
+        },
+        {
+          "cam": "cam11R",
+          "image_xy": [
+            1357.8666666666666,
+            161.06666666666666
+          ],
+          "residual_px": 6.4,
+          "used": true
+        }
+      ],
+      "point_rms_px": 9.52,
+      "n_used": 8
+    },
+    {
+      "id": "bench/bL",
+      "label": "Back-left corner / leg",
+      "group": "bench",
+      "world": [
+        -1.0258,
+        11.3209,
+        0.0374
+      ],
+      "observations": [
+        {
+          "cam": "cam09L",
+          "image_xy": [
+            779.7333333333333,
+            420.2666666666667
+          ],
+          "residual_px": 4.4,
+          "used": true
+        },
+        {
+          "cam": "cam01",
+          "image_xy": [
+            3462,
+            1315
+          ],
+          "residual_px": 7.1,
+          "used": true
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            2260,
+            755
+          ],
+          "residual_px": 5.0,
+          "used": true
+        },
+        {
+          "cam": "cam08",
+          "image_xy": [
+            1170,
+            717
+          ],
+          "residual_px": 5.7,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            1978,
+            813
+          ],
+          "residual_px": 5.0,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            1782,
+            911
+          ],
+          "residual_px": 5.2,
+          "used": true
+        },
+        {
+          "cam": "cam10R",
+          "image_xy": [
+            1144.5333333333333,
+            926.9333333333333
+          ],
+          "residual_px": 3.7,
+          "used": true
+        },
+        {
+          "cam": "cam11R",
+          "image_xy": [
+            1301.3333333333333,
+            107.73333333333332
+          ],
+          "residual_px": 14.1,
+          "used": true
+        }
+      ],
+      "point_rms_px": 7.01,
+      "n_used": 8
+    },
+    {
+      "id": "bench/bR",
+      "label": "Back-right corner / leg",
+      "group": "bench",
+      "world": [
+        0.0468,
+        11.4309,
+        0.0177
+      ],
+      "observations": [
+        {
+          "cam": "cam09L",
+          "image_xy": [
+            778.6666666666666,
+            341.3333333333333
+          ],
+          "residual_px": 5.8,
+          "used": true
+        },
+        {
+          "cam": "cam01",
+          "image_xy": [
+            3531.9999999999995,
+            1355
+          ],
+          "residual_px": 7.1,
+          "used": true
+        },
+        {
+          "cam": "cam03",
+          "image_xy": [
+            2386,
+            473
+          ],
+          "residual_px": 69.0,
+          "used": false
+        },
+        {
+          "cam": "cam05",
+          "image_xy": [
+            8,
+            773
+          ],
+          "residual_px": 17.8,
+          "used": true
+        },
+        {
+          "cam": "cam06",
+          "image_xy": [
+            2382,
+            763
+          ],
+          "residual_px": 14.4,
+          "used": true
+        },
+        {
+          "cam": "cam12",
+          "image_xy": [
+            2027.9999999999998,
+            835
+          ],
+          "residual_px": 4.3,
+          "used": true
+        },
+        {
+          "cam": "cam13",
+          "image_xy": [
+            1855.9999999999998,
+            911
+          ],
+          "residual_px": 5.0,
+          "used": true
+        },
+        {
+          "cam": "cam10R",
+          "image_xy": [
+            1147.7333333333333,
+            1027.2
+          ],
+          "residual_px": 5.2,
+          "used": true
+        },
+        {
+          "cam": "cam11R",
+          "image_xy": [
+            1294.9333333333334,
+            181.33333333333334
+          ],
+          "residual_px": 6.8,
+          "used": true
+        }
+      ],
+      "point_rms_px": 9.52,
+      "n_used": 8
+    }
+  ],
+  "image_sizes": {
+    "cam01": [
+      3840,
+      2160
+    ],
+    "cam02": [
+      3840,
+      2160
+    ],
+    "cam03": [
+      3840,
+      2160
+    ],
+    "cam04": [
+      3840,
+      2160
+    ],
+    "cam05": [
+      3840,
+      2160
+    ],
+    "cam06": [
+      3840,
+      2160
+    ],
+    "cam07": [
+      3840,
+      2160
+    ],
+    "cam08": [
+      3840,
+      2160
+    ],
+    "cam12": [
+      3840,
+      2160
+    ],
+    "cam13": [
+      3840,
+      2160
+    ],
+    "cam09L": [
+      2048,
+      1792
+    ],
+    "cam10L": [
+      2048,
+      1800
+    ],
+    "cam11L": [
+      2048,
+      1792
+    ],
+    "cam09R": [
+      2048,
+      1792
+    ],
+    "cam10R": [
+      2048,
+      1800
+    ],
+    "cam11R": [
+      2048,
+      1792
+    ]
+  },
+  "intrinsics_ref": "diagnostics/court_pnp_cameras.json",
+  "poses_ref": "placements/placed_cameras_20260616_ceilingPnP.json",
+  "triangulation": {
+    "select_px": 25.0,
+    "method": "ransac-seed + iterated LM refine, full-distortion reprojection"
+  }
+}
